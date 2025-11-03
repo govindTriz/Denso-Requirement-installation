@@ -18,3 +18,17 @@ The request body (-d flag) in this example is based on screenshot data that may 
 "lineIds": The API may be case-sensitive. The first example in the documentation used linelds (lowercase 'l'). Ensure you are using the correct field name.
 
 "kpiNames": "S": The first example used a number (1). Using the string "S" may or may not be valid.
+
+
+
+
+
+db.users.insertOne({
+  email: "admin@iotcore.com",
+  password_hash: "$2b$12$Nj5PfiWH5JSnG22v7fb4wObrhP2HcElnvZ/YNFV6hBab6IEKTr2pq",
+  role: "SUPER_ADMIN",
+  customer_name: null,
+  created_at: new Date(),
+  updated_at: new Date(),
+  status: "active"
+})
