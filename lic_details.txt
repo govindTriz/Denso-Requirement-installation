@@ -1,0 +1,15 @@
+MAC: 00:50:56:ac: 64:e6
+Lic created: Nov 3, 2025
+Lic Val: 50 days
+Details: 
+{
+  "user_name": "Denso",
+  "plant_name": "Denso Haryana, Manesar",
+  "users": {
+    "admin": 2,
+    "supervisors": 2,
+    "operators": 2
+  },
+  "applications": 3,
+  "devices": 75
+}
